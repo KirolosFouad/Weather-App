@@ -1,0 +1,19 @@
+<table class="container table table-success table-striped">
+    <thead>
+        <tr>
+            <th>Cities</th>
+            <th>Temperature</th>
+           <!-- <th>Notice</th> --> 
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let city of cities">
+            <td>{{city.city}}</td> 
+            <td>{{city.temp}}</td>
+           <!-- <td>{{city.Notice}}</td> --> 
+        </tr>
+    </tbody>
+</table>
+
+
+
